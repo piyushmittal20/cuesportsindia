@@ -31,8 +31,11 @@ def events(request):
     params = {'event': event}
     return render(request,"home/events.html",params)
 
-# def news(request):
-#     pass
+def about(request):
+    
+    
+def contact(request):
+    pass
 
 
 
